@@ -1,14 +1,10 @@
 
 body {
   font-family: Trebuchet MS, Helvetica, sans-serif;
-
   display: flex;
   justify-content: center;
-
-  /* background-image: linear-gradient(-30deg,#3d5169 , #a68caf ); */
   background-image: linear-gradient(-30deg,#a68caf , #3d5169 );
   height: 100%;
-
   width: 100%;
   margin-top: 0;
   margin-bottom: 0;
@@ -18,11 +14,8 @@ body {
   display: flex;
   width: 500px;
   height: 100%;
-
   justify-content: center;
-
   min-height: 100vh;  
-  /* background-color:#bb6d49; */
   background-image: linear-gradient( #bb6d49, #b4a803);
 }
 
