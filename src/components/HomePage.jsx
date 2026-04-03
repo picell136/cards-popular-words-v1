@@ -117,6 +117,7 @@ const HomePage = ({ arrWords, arrTranslate }) => {
   function clickHandler3() {
     let randomInt = shuffle()
     setRandom(randomInt)
+    setInt(randomInt)
     setEngWord(words[randomInt])
     setRusWord('')
 
